@@ -2,13 +2,14 @@
 - file: tp2_optique.md
   numbered: true
 
-- part: Etude préliminaire
+- part: Focométrie
   chapters:
   - file: notebook/etude_preliminaire.md
-# - part: Focométrie
-#   chapters:
-#   - file: notebook/etude_qualitative.md
-#   - file: notebook/etude_complete.md
-# - part: Construction d'une lunette
-#   chapters:
-#   - file: notebook/lunette.md
+  - file: notebook/etude_rapide.md
+  - file: notebook/etude_complete.md
+- part: Construction d'une lunette
+  chapters:
+  - file: notebook/lunette.md
+- part: Travaux supplémentaires
+  chapters:
+  - file: notebook/supplement.md

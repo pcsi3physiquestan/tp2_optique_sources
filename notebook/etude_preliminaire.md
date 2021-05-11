@@ -36,14 +36,19 @@ Voici une liste non exhaustive du matériel que vous utiliserez en TP :
 * __Lunette afocale__ : Sert à étudier des objets à l'infini. On peut aussi s'en servir pour vérifier qu'un objet est bien à l'infini.
 * __Collimateur__ : Sert à simuler un objet _étendu_ à l'infini.
 
-Regarder la vidéo suivante (il faut exécutez la cellule de code) pour obtenir quelques explications sur les premiers composants que vous allez utiliser (_ne pas hésitez à mettre en pause la vidéo pour lire les explications_).
+Regarder la vidéo suivante pour obtenir quelques explications sur les premiers composants que vous allez utiliser (_Ne pas hésitez à mettre en pause la vidéo pour lire les explications_).
+
++++
 
 ```{code-cell} ipython3
-%%HTML
-<video width="640" height="480" controls>
-  <source src="./videos/intru-divers.mp4" type="video/mp4">
-</video>
+---
+tags: [remove-input]
+---
+from IPython.display import Video
+Video("https://github.com/pcsi3physiquestan/tp2_optique/blob/main/notebook/videos/intru-divers.mp4?raw=true", width=640)
 ```
+
++++
 
 ### Analyse
 Répondre (à l'écrit) aux questions suivantes:
@@ -56,23 +61,34 @@ Répondre (à l'écrit) aux questions suivantes:
 
 ## Instruments d'optique
 
++++
+
 ### Présentation générale
 
-On va maintenant présenter trois instruments particuliers : la lunette afocale, le collimateur et le viseur. Commencez par observer les trois vidéos de présentation du matériel ci-dessous (Exécutez la cellule).
+On va maintenant présenter trois instruments particuliers : la lunette afocale, le collimateur et le viseur. Commencez par observer les trois vidéos de présentation du matériel ci-dessous (Exécutez la cellule). (_Pensez à mettre en pause la vidéo pour lire les explications._)
 
+(etude_preliminaire:instru-lunette)=
 ```{code-cell} ipython3
-%%HTML
-<video width="640" height="480" controls>
-  <source src="./videos/instru-lunette.mp4" type="video/mp4">
-</video>
+---
+tags: [remove-input]
+---
+Video("https://github.com/pcsi3physiquestan/tp2_optique/blob/main/notebook/videos/instru-lunette.mp4?raw=true", width=640)
+```
 
-<video width="640" height="480" controls>
-  <source src="./videos/instru-collimateur.mp4" type="video/mp4">
-</video>
+(etude_preliminaire:instru-collimateur)=
+```{code-cell} ipython3
+---
+tags: [remove-input]
+---
+Video("https://github.com/pcsi3physiquestan/tp2_optique/blob/main/notebook/videos/instru-collimateur.mp4?raw=true", width=640)
+```
 
-<video width="640" height="480" controls>
-  <source src="./videos/instru-viseur.mp4" type="video/mp4">
-</video>
+(etude_preliminaire:instru-viseur)=
+```{code-cell} ipython3
+---
+tags: [remove-input]
+---
+Video("https://github.com/pcsi3physiquestan/tp2_optique/blob/main/notebook/videos/instru-viseur.mp4?raw=true", width=640)
 ```
 
 ### Exemple d'utilisation
@@ -83,6 +99,26 @@ Vous allez vous entrainer à utiliser ces instruments sur un cas simple : on veu
 3. Si l'on place un écran derrière la lentille pour y former l'image. Combien (et quelle ?) mesure(s) directe(s) doit-on faire pour obtenir la distance focale ? Préciser comment obtenir $f'$ de la (des) mesure(s) directe(s) réalisée(s).
 4. On enlève l'écran. Bien regarder la vidéo du viseur. On doit réaliser deux visées pour pouvoir remonter à la distance focale $f'$. Que doit-on viser ? Que mesure-t-on lors de chaque visée ? Préciser comment on obtient $f'$ à partir des deux mesures réalisées grâce au viseur.
 5. Si la lentille est divergente, peut-on encore utiliser un écran ? Peut-on encore utiliser un viseur ?
+6. Reproduire l'énoncé du protocole suivant en remplaçant les trous par les termes adéquats. On observera la forme du protocole pour rédiger les suivants.
+7. Dessiner un schéma de montage avec le protocole précédent. Vous devrez __toujours__ proposer un schéma du montage avec vos protocoles ensuite.
+8. Réécrire le protocole et l'adapter à l'utilisation d'un viseur.
+
+```{margin}
+Ce protocole peut peut-être vous aider à répondre à certaines des questions précédentes si vous avez eu des difficultés.
+```
+
+#### Protocole à reproduire
+
+__But__ : On désire mesure la distance focale d'une lentille.
+
+__Principe__ : Si un objet à l'infini éclaire la lentille, son image va se situer ...... On peut donc estimer la distance focale de la lentille comme la distance ...............
+
+__Mode opératoire__ (avec l'écran) :
+1. On réalise le montage ci-dessous (vous devrez dessiner le schéma du montage).
+2. Un .......... pour simuler un objet à l'infini. On place la lentille à étudier après le ............. (au plus près) puis un écran derrière la lentille.
+3. On mesure sur le banc optique ................... (noté(e) $x_1$) et .................. (noté(e) $x_2$). La distance focale sera donc estimée comme $f' = x_1 - x_2$.
+
++++
 
 ## Focométrie
 
@@ -91,8 +127,11 @@ Le but du TP sera de mesurer de différentes manières la distance focale $f'$ d
 Vous allez dans cette étude préliminaire chercher à :
 * comprendre les bases théoriques des différentes manipulations
 * choisir quels instruments seront nécessaires pour la manipulation.
-* mettre en placele protocole expérimental qu'il faudra réaliser.
+* mettre en place le protocole expérimental qu'il faudra réaliser.
 
++++
+
+(etude_preliminaire:descartes)= 
 ### Utilisation des relations de Descartes.
 
 On veut utiliser la relation de conjugaison de Descartes pour déterminer $f'$. On dispose d'un objet lumineux (à distance finie).
@@ -104,6 +143,9 @@ On veut utiliser la relation de conjugaison de Descartes pour déterminer $f'$. 
 5. Proposer un protocole utilisant la relation de conjugaison de Descartes et un viseur permettant d'estimer la distance focale $f'$ d'une lentille convergente.
 6. Si la lentille est divergente, peut-on encore utiliser l'un des protocoles précédents ? Si oui lequel ?
 
++++
+
+(etude_preliminaire:bessel)= 
 ### Méthode de Bessel (ne faire que si vous avez bien compris la méthode précédente)
 
 Le principe de la méthode de Bessel consiste à projeter l'image d'un objet à distance finie sur un écran à une distance $D$ de l'objet lumineux grâce à la lentille étudiée. Sous la condition de projection $D \geq 4f'$, on peut montrer qu'il existe deux positions $x_1$ et $x_2$ de la lentille qui permettent la projection et que l'on a une relation entre $d = x_2 - x_1 > 0$ et $D$ :
