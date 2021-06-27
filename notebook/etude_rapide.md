@@ -18,7 +18,7 @@ On va commencer par réaliser les expériences sans se soucier des incertitudes 
 
 +++
 
-# Présentation rapide du matériel
+# (TP) Présentation rapide du matériel
 
 ```{margin}
 Cette partie fait suite à l'étude préliminaire du même nom.

@@ -23,7 +23,7 @@ Ce notebook est téléchargeable en versino `.ipynb` grâce au bouton ![Bouton t
 
 +++
 
-# Etude d'une lunette astronomique. (1h)
+# (TP) Etude d'une lunette astronomique. (1h)
 
 Une lunette de Galilée est une lunette astronomique, c’est-à-dire destinée à viser des objets à l’infini, dont le dispositif oculaire est un système divergent. Nous allons chercher à construire une lunette de Galilée destinée à être utilisé par un oeil emmétrope dans les meilleurs conditions. Dans son modèle le plus simple, une lunette de Galilée est constituée :
 * d’un objectif réalisé par une lentille convergente

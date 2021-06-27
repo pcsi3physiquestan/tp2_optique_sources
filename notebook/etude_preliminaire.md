@@ -18,7 +18,7 @@ Cette partie du TP constitue l'étude préliminaire qui doit être réalisée __
 
 +++
 
-# Etude préliminaire
+# (Travail) Etude préliminaire
 
 +++
 

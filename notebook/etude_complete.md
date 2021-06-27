@@ -23,7 +23,7 @@ La page ci-présente existe en version notebook téléchargeable grâce au bouto
 
 +++
 
-# Etude quantitative
+# (TP) Etude quantitative
 
 +++
 
