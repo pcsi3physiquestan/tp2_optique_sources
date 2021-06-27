@@ -45,7 +45,7 @@ Regarder la vidéo suivante pour obtenir quelques explications sur les premiers 
 tags: [remove-input]
 ---
 from IPython.display import Video
-Video("https://github.com/pcsi3physiquestan/tp2_optique/blob/main/notebook/videos/intru-divers.mp4?raw=true", width=640)
+Video("https://github.com/pcsi3physiquestan/videos_physique/blob/main/InstrumentsOptique1-converted.mp4?raw=true", width=640)
 ```
 
 +++
@@ -72,7 +72,7 @@ On va maintenant présenter trois instruments particuliers : la lunette afocale,
 ---
 tags: [remove-input]
 ---
-Video("https://github.com/pcsi3physiquestan/tp2_optique/blob/main/notebook/videos/instru-lunette.mp4?raw=true", width=640)
+Video("https://github.com/pcsi3physiquestan/videos_physique/blob/main/InstrumentsLunette-converted.mp4?raw=true", width=640)
 ```
 
 (etude_preliminaire:instru-collimateur)=
@@ -80,7 +80,7 @@ Video("https://github.com/pcsi3physiquestan/tp2_optique/blob/main/notebook/video
 ---
 tags: [remove-input]
 ---
-Video("https://github.com/pcsi3physiquestan/tp2_optique/blob/main/notebook/videos/instru-collimateur.mp4?raw=true", width=640)
+Video("https://github.com/pcsi3physiquestan/videos_physique/blob/main/InstrumentsCollimateur-converted.mp4?raw=true", width=640)
 ```
 
 (etude_preliminaire:instru-viseur)=
@@ -88,7 +88,7 @@ Video("https://github.com/pcsi3physiquestan/tp2_optique/blob/main/notebook/video
 ---
 tags: [remove-input]
 ---
-Video("https://github.com/pcsi3physiquestan/tp2_optique/blob/main/notebook/videos/instru-viseur.mp4?raw=true", width=640)
+Video("https://github.com/pcsi3physiquestan/videos_physique/blob/main/InstrumentsViseur-converted.mp4?raw=true", width=640)
 ```
 
 ### Exemple d'utilisation
