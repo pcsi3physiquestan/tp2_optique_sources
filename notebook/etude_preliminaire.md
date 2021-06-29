@@ -36,7 +36,7 @@ Voici une liste non exhaustive du matériel que vous utiliserez en TP :
 * __Lunette afocale__ : Sert à étudier des objets à l'infini. On peut aussi s'en servir pour vérifier qu'un objet est bien à l'infini.
 * __Collimateur__ : Sert à simuler un objet _étendu_ à l'infini.
 
-Regarder la vidéo suivante pour obtenir quelques explications sur les premiers composants que vous allez utiliser (_Ne pas hésitez à mettre en pause la vidéo pour lire les explications_).
+Regarder la vidéo suivante pour obtenir quelques explications sur les premiers composants que vous allez utiliser (_Ne pas hésiter à mettre en pause la vidéo pour lire les explications_).
 
 +++
 

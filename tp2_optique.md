@@ -24,4 +24,4 @@ Les TP d'optique sont divisés en deux séances. Le travail se décompose :
 * __[Etude d'un instrument d'optique](./notebook/lunette.ipynb)__ : Vous essaierez de réinvestir ce que vous avez appris en TP et en cours pour construire et étudier un instrument d'optique afocal.
 * __[Travail supplémentaire](./notebook/supplement.ipynb)__ : Si le temps le permet,  vous essaierez de reprendre les méthodes de focométrie pour étudier une lentille divergente.
 
-Le compte-rendu du TP sera manuscrit et devra être rendu à la fin de la deuxième séance. Un notebook sera utilisé pour l'étude complète et devra être rendu sur le site en plus du compte-rendu.
+Le compte-rendu du TP sera manuscrit et devra être rendu à la fin de la deuxième séance. Il contiendra l'étude préliminaire et le compte-rendu des manipulations faites en TP. Un notebook sera utilisé pour l'étude complète et devra être rendu sur le site en plus du compte-rendu.

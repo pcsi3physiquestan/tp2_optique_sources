@@ -108,7 +108,7 @@ On retiendra :
 
 +++
 
-# Focométrie : Etude semi-quantitative
+# (TP) Focométrie : Etude semi-quantitative
 
 ## Utilisation des relations de Descartes (1h)
 
