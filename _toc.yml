@@ -1,15 +1,17 @@
-# In _toc.yml
-- file: tp2_optique
+format: jb-book
+root: tp2_optique
+parts:
+- caption: "Focométrie"
   numbered: true
-
-- part: Focométrie
   chapters:
-  - file: notebook/etude_preliminaire
+  - file: notebook/etude_preliminaire.md
   - file: notebook/etude_rapide
   - file: notebook/etude_complete
-- part: Construction d'une lunette
+- caption: Construction d'une lunette
+  numbered: true
   chapters:
   - file: notebook/lunette
-- part: Travaux supplémentaires
+- caption: "Travaux supplémentaires"
+  numbered: true
   chapters:
   - file: notebook/supplement
