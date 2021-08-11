@@ -60,8 +60,16 @@ x3_mes = 0  # Commentaire à remplacer par la descritpion de x3
 """
 Pour chaque source d'incertitude créer une ligne ou vous entrez la valeur de de la demi-largeur de la distribution uniforme.
 """
+# Sources d'incertitudes pour x1
 x1_d1 = 0  # Décrire ici la source d'incertitude associée
 x1_d2 = 0  # Décrire ici la source d'incertitude associée
+
+# Sources d'incertitudes pour x2
+
+
+
+# Sources d'incertitudes pour x3
+
 
 
 """
