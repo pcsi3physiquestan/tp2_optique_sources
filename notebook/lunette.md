@@ -61,6 +61,7 @@ Vous devez maintenant :
 3. Proposer puis réaliser un protocole permettant de mesurer le grossissement de la lunette ainsi construite. On devra vérifier l'adéquation entre la valeur mesurée et le cahier des charges.
 
 ```{code-cell} ipython3
+:tags: [remove-output, hide-input]
 """
 Utilisez cette cellule pour réaliser les simulations de Monte-Carlo adéquates et obtenir les incertitude de mesure que vous devez calculer.
 

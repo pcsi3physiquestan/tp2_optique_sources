@@ -40,7 +40,7 @@ Remplissez la cellule de code ci-après pour propager l'incertitude à la distan
 
 
 ```{code-cell} ipython3
-:tags: [remove-output]
+:tags: [remove-output, hide-input]
 """
 On importe pour vous les bibliothèques scientifiques utiles.
 """
@@ -154,7 +154,7 @@ __Le constructeur annonce une précision de 10% sur la valeur de la focale.__ Sa
 Utiliser la cellule ci-dessous pour calculer et afficher l'écart normalisé. Vous rendrez compte sur votre copie du résultat trouvé et commenterez la cohérence entre votre résultat d'expérience et le valeur constructeur.
 
 ```{code-cell} ipython3
-:tags: [remove-output]
+:tags: [remove-output, hide-input]
 """
 On rappelle que les variables enregistrées à la cellule précédente sont encore en mémoire.
 
@@ -185,7 +185,7 @@ Utilisez les cellules précédentes pour écrire votre code.  __Ne pas utiliser 
 
 
 ```{code-cell} ipython3
-:tags: [remove-output]
+:tags: [remove-output, hide-input]
 """
 Les bibliothèques scientifiques utiles ont déjà été importées. Il n'est pas utile de les réimporter
 """
@@ -228,7 +228,7 @@ Dans votre compte-rendu écrit, vous devez maintenant rendre compte des grandeur
 Utiliser la cellule ci-dessous pour calculer et afficher l'écart normalisé. Vous rendrez compte sur votre copie du résultat trouvé et commenterez la cohérence entre votre résultat d'expérience et le valeur constructeur.
 
 ```{code-cell} ipython3
-:tags: [remove-output]
+:tags: [remove-output, hide-input]
 """
 On rappelle que les variables enregistrées à la cellule précédente sont encore en mémoire.
 """
@@ -246,7 +246,7 @@ Utiliser la cellule de code ci-dessous pour calculer la moyenne des résultats d
 2. Obtenir ainsi le résultat de mesurage de $f'$ ainsi que son incertitude.
 
 ```{code-cell} ipython3
-:tags: [remove-output]
+:tags: [remove-output, hide-input]
 """
 On rappelle que les variables enregistrées à la cellule précédente sont encore en mémoire.
 """
@@ -258,7 +258,7 @@ On rappelle que les variables enregistrées à la cellule précédente sont enco
 Réfléchir aux différentes cohérences entre valeur qu'on peut estimer (ici vous devez trouver au moins 3 écarts normalisés à calculer). Utiliser la cellule de code ci-dessous pour les calculer.
 
 ```{code-cell} ipython3
-:tags: [remove-output]
+:tags: [remove-output, hide-input]
 """
 On rappelle que les variables enregistrées à la cellule précédente sont encore en mémoire.
 """

@@ -25,6 +25,7 @@ Prenez une lentille divergente de focale relativement grande. Vous devez propose
 A vous de voir si le protocole peut être utilisé directement ou s'il nécessite des adaptations, si certaines précautions supplémentaires sont nécessaires. Une cellule de code est disponible ci-dessous pour réaliser vos traitements pour les incertitudes (le document est téléchargeables comme précédemment).
 
 ```{code-cell} ipython3
+:tags: [remove-output, hide-input]
 """
 Cellule de code pour le traitement des données relatives à l'étude d'une lentille divergente.
 """
@@ -38,6 +39,7 @@ Reprendre la même lentille convergente que pour l'étude initiale. On veut réa
 La cellule de code ci-dessous vous permettra de réaliser la régression linéaire. N'hésitez pas à utiliser ce qui a été vu dans le premier TP pour réaliser la régression linéaire sous Python et obtenir l'incertitude sur $f'$.
 
 ```{code-cell} ipython3
+:tags: [remove-output, hide-input]
 """
 Cellule de code pour le traitement des données relatives à l'étude d'une lentille convergente par la méthode de Bessel.
 """
