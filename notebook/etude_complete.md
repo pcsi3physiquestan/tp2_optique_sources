@@ -181,7 +181,7 @@ Maintenant que vous avez fait une première fois les mesures pour la méthode de
 ### Traitement des résultats avec Python.
 Remplissez la cellule de code ci-après pour propager l'incertitude à la distance focale $f'$. On considérera pour simplifier que __toutes les distributions statistiques associées aux différentes lois sont gaussiennes__.
 
-Utilisez les cellules précédentes pour écrire votre code.  __Ne pas utiliser des noms de variables déjà utilisé pour ne pas effacer les résultats précédents__.
+Utilisez les cellules précédentes pour écrire votre code.  __Ne pas utiliser des noms de variables déjà utilisés pour ne pas effacer les résultats précédents__.
 
 
 ```{code-cell} ipython3

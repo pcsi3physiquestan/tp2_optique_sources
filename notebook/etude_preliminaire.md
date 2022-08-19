@@ -51,11 +51,14 @@ Video("https://github.com/pcsi3physiquestan/videos_physique/blob/main/Instrument
 +++
 
 ### Analyse
+````{admonition} Analyse
+:class: tip
 Répondre (à l'écrit) aux questions suivantes:
 1. Le cavalier palcé sur le banc optique permet de supporter une lentille, un objet, un écran... La mesure _directe_ par les graduations situées sur le banc optique donnent-elles une __position absolue__ de composant sur le banc optique ? ou un distance entre deux objets sur le banc optique ? Quelle conséquence cela aura sur l'estimation d'une incertitude d'une distance (par exemple une distance lentille-écran) ?
 2. Pour déterminer rapidement le caractère convergent ou divergent d'une lentille, une méthode simple consiste à observer un objet lointain avec la lentille.
     1. Expliquer quel sens semi-quantitatif donner au terme __lointain__ pour une lentille de distance focale $f'$ ? Quelle approximation peut-on faire pour une étude théorique?
     2. Faire un schéma de tracé de rayon donnant l'image de l'objet lointain dans le cas d'une lentille convergente puis dans le cas d'une lentille divergente. Comment pourra-t-on faire la différence entre les deux?
+````
 
 +++
 
@@ -92,6 +95,8 @@ Video("https://github.com/pcsi3physiquestan/videos_physique/blob/main/Instrument
 ```
 
 ### Exemple d'utilisation
+````{admonition} Analyse préliminaire
+:class: tip
 Vous allez vous entrainer à utiliser ces instruments sur un cas simple : on veut déterminer la distance focale $f'$ d'une lentille grâce à un objet à l'infini. Répondez aux questions suivantes pour préparer le TP.
 
 1. Si l'objet est à l'infini, où va se situer l'image par la lentille ? Comment peut-on alors mesurer simplement la distance focale ?
@@ -102,6 +107,7 @@ Vous allez vous entrainer à utiliser ces instruments sur un cas simple : on veu
 6. Reproduire l'énoncé du protocole suivant en remplaçant les trous par les termes adéquats. On observera la forme du protocole pour rédiger les suivants.
 7. Dessiner un schéma de montage avec le protocole précédent. Vous devrez __toujours__ proposer un schéma du montage avec vos protocoles ensuite.
 8. Réécrire le protocole et l'adapter à l'utilisation d'un viseur.
+````
 
 ```{margin}
 Ce protocole peut peut-être vous aider à répondre à certaines des questions précédentes si vous avez eu des difficultés.
@@ -109,7 +115,7 @@ Ce protocole peut peut-être vous aider à répondre à certaines des questions 
 
 #### Protocole à reproduire
 
-__But__ : On désire mesure la distance focale d'une lentille.
+__But__ : On désire mesurer la distance focale d'une lentille.
 
 __Principe__ : Si un objet à l'infini éclaire la lentille, son image va se situer ...... On peut donc estimer la distance focale de la lentille comme la distance ...............
 
@@ -134,6 +140,8 @@ Vous allez dans cette étude préliminaire chercher à :
 (etude_preliminaire:descartes)= 
 ### Utilisation des relations de Descartes.
 
+````{admonition} Mise en place du protocole
+:class: tip
 On veut utiliser la relation de conjugaison de Descartes pour déterminer $f'$. On dispose d'un objet lumineux (à distance finie).
 
 1. Rappeler la relation de conjugaison de Descartes des lentilles minces. En déduire que l'on peut obtenir une mesure de $f'$ en réalisant la mesure des distances $\overline{OA}$ et $\overline{OA'}$.
@@ -142,6 +150,7 @@ On veut utiliser la relation de conjugaison de Descartes pour déterminer $f'$. 
 4. Proposer un protocole utilisant la relation de conjugaison de Descartes et un écran permettant d'estimer la distance focale $f'$ d'une lentille convergente. Vous devrez bien présenter le __but__, le __principe__ puis le __mode opératoire__ en précisant quels sont les __mesurandes directes__ et comment on remonte à la grandeur voulue.
 5. Proposer un protocole utilisant la relation de conjugaison de Descartes et un viseur permettant d'estimer la distance focale $f'$ d'une lentille convergente.
 6. Si la lentille est divergente, peut-on encore utiliser l'un des protocoles précédents ? Si oui lequel ?
+````
 
 +++
 
@@ -156,7 +165,10 @@ $$
 
 __Cette relation a été démontrée en exercice lors de l'étude de la projection. Il est vivement conseillé de s'entraîner à la démontrer mais ce n'est pas l'objet du TP.__
 
+````{admonition} Mise en place du protocole
+:class: tip
 1. Expliquer comment mesurer $D$. On précisera combien de mesurandes directs il faut mesurer et comment on remonte à $D$.
 2. Expliquer comment mesurer $d$. On précisera combien de mesurandes directs il faut mesurer et comment on remonte à $d$.
 3. Exprimer $f'$ en fonction de $d$ et $D$.
 4. Rédiger proprement le protocole de la manipulation. Vous devrez bien présenter le __but__, le __principe__ puis le __mode opératoire__ en précisant quels sont les __mesurandes directes__ et comment on remonte à la grandeur voulue.
+````
