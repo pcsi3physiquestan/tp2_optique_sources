@@ -25,3 +25,24 @@ Les TP d'optique sont divisés en deux séances. Le travail se décompose :
 * __[Travail supplémentaire](./notebook/supplement.ipynb)__ : Si le temps le permet,  vous essaierez de reprendre les méthodes de focométrie pour étudier une lentille divergente.
 
 Le compte-rendu du TP sera manuscrit et devra être rendu à la fin de la deuxième séance. Il contiendra l'étude préliminaire et le compte-rendu des manipulations faites en TP. Un notebook sera utilisé pour l'étude complète et devra être rendu sur le site en plus du compte-rendu.
+
+__Compétences mises en jeu :__
+
+_Focométrie_
+
+| Compétences | Je sais de quoi ça parle | Je peux explier la méthode | Je sais l'appliquer |
+|:------------| :-:|:-:|:-:|
+|Utiliser un viseur à frontale fixe.||||
+|Mettre en oeuvre une mesure de longueur par déplacement d'un viseur entre deux positions.||||
+|Utiliser des vis micrométriques et un réticule.||||
+|Estimer une valeur approchée d’une distance focale.||||
+
+
+_Lunette de Galilée_
+
+| Compétences | Je sais de quoi ça parle | Je peux expliquer la méthode | Je sais l'appliquer |
+|:------------| :-:|:-:|:-:|
+|Régler et mettre en oeuvre un collimateur.||||
+|Régler et utiliser une lunette afocale.||||
+|Choisir une ou plusieurs lentilles en fonction des contraintes expérimentales, et choisir leur focale de façon raisonnée.||||
+|Modéliser (et rélger), à l’aide de plusieurs lentilles, un dispositif optique d’utilisation courante afocal.||||
