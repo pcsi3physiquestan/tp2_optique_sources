@@ -38,6 +38,8 @@ Maintenant que vous avez fait une première fois les mesures pour la méthode de
 ### Traitement des résultats avec Python.
 Remplissez la cellule de code ci-après pour propager l'incertitude à la distance focale $f'$. On considérera pour simplifier que __toutes les distributions statistiques associées aux différentes lois sont uniformes__.
 
+__Vous devrez dupliquer cette cellule pour réaliser l'étude à l'écran ET au viseur.__
+
 
 ```{code-cell} ipython3
 :tags: [remove-output, hide-input]
@@ -73,22 +75,19 @@ x1_d2 = 0  # Décrire ici la source d'incertitude associée
 
 
 """
-Créer les échantillons pour chaque source d'incertitude.
-On rappelle que pour un tirage de N valeurs suivant une loi uniforme centrée en 0 et de demi-largeur dt, la fonction est 
-rd.uniform(-dt, dt, N)
+Choisir le nombre de simulations
 """
 N = 100000
-x1_d1_sim = rd.uniform(-x1_d1, x1_d1, N)
-x1_d2_sim = rd.uniform(-x1_d2, x1_d2, N)
-
 
 """
-Créer à partir des échantillons précédents, les échantillons simulés des mesurandes x1, x2, x3
+Créer les échantillons simulés des mesurandes x1, x2, x3
 (ne pas oublier le résultat de mesurage).
+On rappelle que pour un tirage de N valeurs suivant une loi uniforme centrée en 0 et de demi-largeur dt, la fonction est 
+rd.uniform(-dt, dt, N)
 
 Créer ensuite les échantillons simulés de OA, OA' puis f'.
 """
-x1_sim = 0
+x1_sim = x1_m + rd.uniform(-x1_d1, x1_d1, N) + rd.uniform(-x1_d2, x1_d2, N)
 x2_sim = 0
 x3_sim = 0
 OA_sim = 0
@@ -98,19 +97,19 @@ f1_sim = 0
 """
 On affiche pour vous les résultats pour chaque grandeur
 """
-print("Résultat de mesurage pour x1 (sans unités) : " + str(np.mean(x1_sim)))
+print("Résultat de mesurage pour x1 (sans unités) : " + str(x1_mes))
 print("Résultat de mesurage pour u(x1) (sans unités) : " + str(np.std(x1_sim, ddof=1)))
 
-print("Résultat de mesurage pour x2 (sans unités) : " + str(np.mean(x2_sim)))
+print("Résultat de mesurage pour x2 (sans unités) : " + str(x2_mes))
 print("Résultat de mesurage pour u(x2) (sans unités) : " + str(np.std(x2_sim, ddof=1)))
 
-print("Résultat de mesurage pour x3 (sans unités) : " + str(np.mean(x3_sim)))
+print("Résultat de mesurage pour x3 (sans unités) : " + str(x3_mes))
 print("Résultat de mesurage pour u(x3) (sans unités) : " + str(np.std(x3_sim, ddof=1)))
 
-print("Résultat de mesurage pour OA (sans unités) : " + str(np.mean(OA_sim)))
+print("Résultat de mesurage pour OA (sans unités) : " + str(x1_mes - x2_mes)
 print("Résultat de mesurage pour u(OA) (sans unités) : " + str(np.std(OA_sim, ddof=1)))
 
-print("Résultat de mesurage pour OA1 (sans unités) : " + str(np.mean(OA1_sim)))
+print("Résultat de mesurage pour OA1 (sans unités) : " + str(x3_mes - x2_mes))
 print("Résultat de mesurage pour u(OA1) (sans unités) : " + str(np.std(OA1_sim, ddof=1)))
 
 
