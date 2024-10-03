@@ -106,7 +106,7 @@ print("Résultat de mesurage pour u(x2) (sans unités) : " + str(np.std(x2_sim, 
 print("Résultat de mesurage pour x3 (sans unités) : " + str(x3_mes))
 print("Résultat de mesurage pour u(x3) (sans unités) : " + str(np.std(x3_sim, ddof=1)))
 
-print("Résultat de mesurage pour OA (sans unités) : " + str(x1_mes - x2_mes)
+print("Résultat de mesurage pour OA (sans unités) : " + str(x1_mes - x2_mes))
 print("Résultat de mesurage pour u(OA) (sans unités) : " + str(np.std(OA_sim, ddof=1)))
 
 print("Résultat de mesurage pour OA1 (sans unités) : " + str(x3_mes - x2_mes))
