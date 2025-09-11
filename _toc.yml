@@ -6,7 +6,7 @@ parts:
   chapters:
   - file: notebook/etude_preliminaire.md
   - file: notebook/etude_rapide
-  - file: notebook/etude_complete
+  - file: notebook/etude_complete.md
 - caption: Construction d'une lunette
   numbered: true
   chapters:
