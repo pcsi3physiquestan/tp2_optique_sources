@@ -14,7 +14,7 @@ kernelspec:
   name: python3
 ---
 
-Cette partie du TP est complètement indépendante des précédentes. Vous allez apprendre à manipuler les notions en rapport avec les objets à l'infini. Cette partie est peu guidée. C'est à vous de :
+Cette partie du TP est complètement indépendante des précédentes. Vous allez apprendre à manipuler les notions en rapport avec les objets à l'infini. Cette partie est peu guidée. Le but général sera de:
 * proposer un protocole répondant aux problématiques posées.
 * réaliser ce protocole et réaliser les bilans d'incertitude nécessaires.
 * exploiter les mesures que vous aurez obtenus pour répondre aux problématiques posées.
@@ -35,7 +35,7 @@ Une lunette de Galilée est une lunette astronomique, c’est-à-dire destinée 
 * La lunette de Galilée construire devra satisfaire la description précédente.
 * De plus, une lunette sert à grossir les objets observés pour mieux en visualiser les détails. Si les grossissements des lunettes du commerce peuvent atteindre $\times 10$ à $\times 400$, nous nous contenterons ici d’un faible grossissement (à cause des faibles diamètres de la lentille). On impose donc que le grossissement soit compris entre 1,4 et 2.
 * La lunette devra être utilisée par l’oeil humain emmétrope ou avec ses défauts. On la testera avec un oeil au repos modélisé par __un système lentille + écran avec une lentille +200mm__.
-* Pour régler la lunette, on fait "comme s'il s'agissait d'une vraie lunette" : on ne peut pas la démonter pour mesurer les distances focales des lentilles (qui ne sont connues qu'à 10%). __On devra donc proposer un protocole de réglage de la lunette par l'utilisateur (l'oeil emmétrope) sans connaître les distances focales.__
+* Pour régler la lunette, on fait "comme s'il s'agissait d'une vraie lunette" : on ne peut pas la démonter pour mesurer les distances focales des lentilles (qui ne sont connues qu'à 10%). __On devra donc proposer des protocoles sans connaître les distances focales.__
 
 +++
 

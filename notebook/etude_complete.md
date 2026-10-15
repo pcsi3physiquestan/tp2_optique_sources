@@ -178,7 +178,7 @@ Maintenant que vous avez fait une première fois les mesures pour la méthode de
 +++
 
 ### Traitement des résultats avec Python.
-Remplissez la cellule de code ci-après pour propager l'incertitude à la distance focale $f'$. On considérera pour simplifier que __toutes les distributions statistiques associées aux différentes lois sont gaussiennes__.
+Remplissez la cellule de code ci-après pour propager l'incertitude à la distance focale $f'$. On considérera pour simplifier que __toutes les distributions statistiques associées aux différentes lois sont uniformes__.
 
 Utilisez les cellules précédentes pour écrire votre code.  __Ne pas utiliser des noms de variables déjà utilisés pour ne pas effacer les résultats précédents__.
 
@@ -240,9 +240,10 @@ On rappelle que les variables enregistrées à la cellule précédente sont enco
 +++
 
 ### Moyenne des mesures.
-Utiliser la cellule de code ci-dessous pour calculer la moyenne des résultats de $f'$ obtenus par les deux méthodes. Pour cela, vous aller :
-1. Faire N fois la moyenne des deux mesures pour les N échantillons simulés. Vous obtenez un vecteur de N simulations.
-2. Obtenir ainsi le résultat de mesurage de $f'$ ainsi que son incertitude.
+Utiliser la cellule de code ci-dessous pour calculer la moyenne des résultats de $f'$ obtenus par les trois méthodes. Pour cela, vous aller :
+1. Calculer la moyenne à partir des résultats de mesurage des focales.
+2. Faire N fois la moyenne des deux mesures pour les N échantillons simulés. Vous obtenez un vecteur de N simulations.
+3. Obtenir ainsi le résultat de mesurage de $f'$ ainsi que son incertitude.
 
 ```{code-cell} ipython3
 :tags: [remove-output, hide-input]
